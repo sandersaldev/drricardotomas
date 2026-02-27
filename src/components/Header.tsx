@@ -58,11 +58,12 @@ const Header = () => {
 
       {/* Main nav */}
       <div className="container mx-auto flex items-center justify-between px-4 py-3">
-        <Link to="/" className="flex flex-col leading-tight">
-          <span className="text-xl font-heading font-bold tracking-wide text-primary">
-            RICARDO TOM√ÅS<span className="text-coral">,</span>Dr
-          </span>
-          <span className="text-[10px] font-heading tracking-[0.3em] text-primary uppercase">Oftalmologia</span>
+        <Link to="/" className="flex items-center">
+          <img
+            src="/logo-cliente.png"
+            alt="Logo da clÌnica"
+            className="h-12 w-auto object-contain sm:h-14"
+          />
         </Link>
 
         {/* Desktop nav */}
@@ -131,3 +132,4 @@ const Header = () => {
 };
 
 export default Header;
+

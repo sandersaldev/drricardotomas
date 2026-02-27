@@ -1,7 +1,6 @@
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import heroBg from "@/assets/hero-bg.jpg";
-import drRicardo from "@/assets/dr-ricardo.jpg";
 import agendarBg from "@/assets/agendar-bg.jpg";
 import { MapPin, Mail, Phone, Eye } from "lucide-react";
 
@@ -70,7 +69,7 @@ const Index = () => {
             </div>
             <div className="flex justify-center">
               <img
-                src={drRicardo}
+                src="/medico.jpg"
                 alt="Dr. Ricardo Tomás"
                 className="rounded-2xl shadow-lg max-w-xs w-full object-cover"
               />
