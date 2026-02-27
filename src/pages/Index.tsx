@@ -2,6 +2,8 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import heroBg from "@/assets/hero-bg.jpg";
 import agendarBg from "@/assets/agendar-bg.jpg";
+// using cleaned filename 'dr-ricardo.png'
+import drPic from "@/assets/dr-ricardo.png";
 import { MapPin, Mail, Phone, Eye } from "lucide-react";
 
 const Index = () => {
@@ -69,7 +71,7 @@ const Index = () => {
             </div>
             <div className="flex justify-center">
               <img
-                src="/medico.jpg"
+                src={drPic}
                 alt="Dr. Ricardo Tomás"
                 className="rounded-2xl shadow-lg max-w-xs w-full object-cover"
               />
@@ -146,7 +148,7 @@ const Index = () => {
           {/* Google Maps */}
           <div className="max-w-5xl mx-auto rounded-xl overflow-hidden shadow-lg">
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3985.335!2d-54.7089!3d-2.4388!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMsKwMjYnMTkuNyJTIDU0wrA0MiczMi40Ilc!5e0!3m2!1spt-BR!2sbr!4v1234567890"
+              src="https://www.google.com/maps?q=Av.+Mendon%C3%A7a+Furtado+1501,+Santar%C3%A9m+-+PA&output=embed"
               width="100%"
               height="400"
               style={{ border: 0 }}
